@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Instrument Serif", Georgia, Cambria, "Times New Roman", Times, serif;
+  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.font-serif-italic {
+  font-family: var(--font-serif);
+  font-style: italic;
+}
+
+.horizon-glow {
+  box-shadow: inset 0 2px 20px rgba(255, 255, 255, 0.9), 0 -8px 45px 2px rgba(255, 255, 255, 0.45);
+}
+
+.circle-glow {
+  box-shadow: 0 0 50px 2px rgba(255, 255, 255, 0.22), inset 0 0 45px rgba(255, 255, 255, 0.12);
+}
+
+.circle-ambient {
+  background: radial-gradient(circle at center, rgba(255, 255, 255, 0.07) 0%, rgba(255, 255, 255, 0.02) 45%, transparent 70%);
+}
+
+.horizon-ambient {
+  background: radial-gradient(ellipse 70% 50% at 50% 100%, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0) 70%);
+}
+
+.radial-mask {
+  mask-image: radial-gradient(ellipse 80% 60% at 50% 50%, black 40%, transparent 80%);
+}

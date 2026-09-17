@@ -1,0 +1,6 @@
+{
+  "name": "Alcove - A peaceful RSS Reader",
+  "description": "A quiet place to see what's new",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
